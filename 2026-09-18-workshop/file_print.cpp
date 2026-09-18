@@ -20,10 +20,10 @@ void prime_factors(long mynum, std::string filename)
     // abrir el archivo
     std::ofstream fout(filename); // abre archivo
 
-    std::print("{} : ", mynum);
+    std::print(fout, "{} : ", mynum);
     //si soy primo imprimo y me devuelvo
     if (is_prime(mynum) == true) {
-        std::println("{}", mynum);
+        std::println(fout, "{}", mynum);
         return ;
     }
 
@@ -32,12 +32,12 @@ void prime_factors(long mynum, std::string filename)
     for(long ii = 2; ii <= limit; ii++) { 
       // si ii es divisor y ademas es primo
       if(limit%ii == 0 and is_prime(ii)) { 
-        std::print("{} ", ii);
+        std::print(fout, "{} ", ii);
         limit = limit/ii;
         ii = 1; 
       }
     }
-    std::println("");
+    std::println(fout, "");
 
     // cerrar el archivo
     fout.close();
