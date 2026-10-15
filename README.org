@@ -1,0 +1,12 @@
+This repo contains code developed during the C++ programming course in 2026-II.
+
+Department of Physics-Bogota
+Universidad Nacional de Colombia
+
+* Classes
+** <2026-10-16 Fri> Arrays/vectors exercises [0/4]
+ - [ ] Talk about ~std::array~.
+ - [ ] Do one example exercise
+ - [ ] Assign one exerecise offline, local moodle
+ - [ ] Another example exercise if time allows, using a matrix indexing.
+   
