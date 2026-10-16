@@ -1,3 +1,6 @@
 *.x
 a.out
 *txt
+.vscode
+*~
+*gdb_history
