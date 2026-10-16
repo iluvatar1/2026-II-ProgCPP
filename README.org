@@ -5,8 +5,8 @@ Universidad Nacional de Colombia
 
 * Classes
 ** <2026-10-16 Fri> Arrays/vectors exercises [0/4]
- - [ ] Talk about ~std::array~.
- - [ ] Do one example exercise
- - [ ] Assign one exerecise offline, local moodle
+ - [X] Talk about ~std::array~.
+ - [X] Do one example exercise
+ - [X] Assign one exerecise offline, local moodle
  - [ ] Another example exercise if time allows, using a matrix indexing.
    
